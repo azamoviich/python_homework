@@ -42,4 +42,48 @@ for X in text:
     if X in vowels:
         count += 1
 print("Number of vowels:", count)
+###########
+#Homework 7 (Max Number)
+###########
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+maximum = numbers[0]
+for num in numbers:
+    if num > maximum:
+        maximum = num
+print("Maximum value:", maximum)
+###########
+#Homework 8 (Palidrone)
+###########
+word = input("Enter a word: ")
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+###########
+#Homework 9 (Email)
+###########
+email = input("Enter your email: ")
+at_index = email.find("@")
+domain = email[at_index + 1:]
+print("Domain:", domain)
+###########
+#Homework 10 (Password)
+###########
+import random
+import string
+length = int(input("Enter password length: "))
+characters = string.ascii_letters + string.digits + string.punctuation
+password = "".join(random.choice(characters) for _ in range(length))
+print("Generated password:", password)
+
+
+
+
+
+
+
+
+
+
+
 
