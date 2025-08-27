@@ -27,13 +27,13 @@ word = txt.split()
 Area = Area [-1]
 print ("Residence Area :", Area)
 ###########
-#Homework 4 (Reverse String)
+#Homework 5 (Reverse String)
 ###########
 Text = input("Please input string")
 Result = Text[::-1]
 print("Results:", Result)
 ###########
-#Homework 5 (Vowel Count)
+#Homework 6 (Vowel Count)
 ###########
 text = input("Enter a string: ")
 vowels = "aeiou"
